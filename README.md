@@ -20,31 +20,24 @@ The project focuses on being minimal, fast, and easy to install.
 ##  Installation
 
 Clone the repository:
-
-
 git clone https://github.com/akirathelinuxguy/rtimer.git
+
+Enter the folder
 cd rtimer
 
-Build the project:
-
-cargo build --release
-Install system-wide (may require root):
-
+Install it 
+chmod +x install.sh
 sudo ./install.sh
+
+Run it fron applauncher or rtimer in any terminal
+
 
 ## Uninstallation
 
 To remove rtimer from your system:
-
+chmod +x uninstall.sh
 sudo ./uninstall.sh
 
-## Usage
-After installation, you can:
-
-Launch rtimer from your application menu
-
-Or run it directly from the terminal (if installed in PATH):
-rtimer
 
 ### Development
 
